@@ -15,3 +15,18 @@ b=temp;
 printf("a=%d, b=%d\n" ,a,b);
 return 0;
 }
+
+
+#include<stdio.h>
+int main()
+{
+int a,b,sum=0;
+printf("enter two integers:");
+scanf("%d",&a,&b);
+sum=a+b;
+printf("sum:%d",sum);
+return 0;
+}
+
+
+
